@@ -4,6 +4,12 @@ This repository contains a clean MATLAB implementation of the method in:
 
 > J. Xu, W. Jiang, L. Chen, C. Zhang, M. Wildgruber, X. Yang, and X. Ma, "Confidence-Weighted Prior-Guided RPCA for Hyperspectral Anomaly Detection," IEEE Signal Processing Letters, vol. 33, pp. 1766-1770, 2026. DOI: 10.1109/LSP.2026.3682998
         
+        
+        
+        
+        
+        
+        
         .
 
 ## Method
@@ -38,8 +44,6 @@ demo_cwp_rpca
 ```
 
 If VLFeat is not available, the demo falls back to MATLAB `superpixels` when possible, and then to a grid segmentation fallback. The VLFeat path is recommended for reproducing the paper most closely.
-
-When `data/San_Diego.mat` is not present, the demo runs on a small synthetic HSI so that the code can be tested immediately.
 
 ## Main API
 
