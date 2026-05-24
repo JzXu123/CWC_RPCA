@@ -2,15 +2,7 @@
 
 This repository contains a clean MATLAB implementation of the method in:
 
-> J. Xu, W. Jiang, L. Chen, C. Zhang, M. Wildgruber, X. Yang, and X. Ma, "Confidence-Weighted Prior-Guided RPCA for Hyperspectral Anomaly Detection," IEEE Signal Processing Letters, vol. 33, pp. 1766-1770, 2026. DOI: 10.1109/LSP.2026.3682998
-        
-        
-        
-        
-        
-        
-        
-        .
+> J. Xu, W. Jiang, L. Chen, C. Zhang, M. Wildgruber, X. Yang, and X. Ma, "Confidence-Weighted Prior-Guided RPCA for Hyperspectral Anomaly Detection," IEEE Signal Processing Letters, vol. 33, pp. 1766-1770, 2026. DOI: 10.1109/LSP.2026.3682998 .
 
 ## Method
 
@@ -28,7 +20,6 @@ CWP_RPCA_public/
   demo_cwp_rpca.m          Example entry point
   functions/               Core algorithm and utilities
   data/README.md           Dataset format and placement notes
-  third_party/README.md    Optional VLFeat dependency notes
 ```
 
 ## Quick Start
